@@ -8,7 +8,6 @@ const Tours = ({tourList, onRemove}) => {
       {tourList.map((tour) => {
         return (
             <Tour 
-              key={tour.id}
               id={tour.id}
               name={tour.name}
               description={tour.info}

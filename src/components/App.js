@@ -32,7 +32,7 @@ const App = () => {
       {loading ? <Loading />: <Tours tourList={tours} onRemove={removeTour}/> }
       {tours.length == 0 && <div>
           <p>No tours left</p>
-          <button onClick={refresh}>Refresh</button>
+          <button onClick={refresh} className="btn">Refresh</button>
         </div>}
     </main>
   )
